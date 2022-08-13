@@ -17,7 +17,7 @@ export default function Modal({ isCorrect, solution, turn }) {
       )}
       {!isCorrect && (
         <div>
-          <h1>Nevermind!</h1>
+          <h1>Sorry!</h1>
           <p className="solution">{solution}</p>
           <p>Better luck next time :)</p>
           <button onClick={refresh}>Restart</button>
